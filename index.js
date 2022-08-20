@@ -1,5 +1,7 @@
 var level = 0;
 var started = false;
+var bestScore = 0;
+var currentScore = 0;
 const colorList = ["green", "red", "yellow", "blue"];
 
 computerList = [];
@@ -42,6 +44,11 @@ function checkAnswer(currentMove) {
             setTimeout(() => {
                 computerPattern();
             },300);
+
+            if (bestScore < level) {
+               bestScore = level;
+               document.querySelector("#best-score span").innerHTML = level;
+           }
         }
     }
     else {
