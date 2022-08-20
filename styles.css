@@ -16,14 +16,6 @@ h1 {
     line-height: 1.5;
 }
 
-footer {
-    background-color: #ffffff;
-    font-size: 12px;
-    padding: 10px;
-    left: 0;
-    bottom: 0;
-    margin-top: 70px;
-}
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
@@ -32,9 +24,6 @@ footer {
   color: #FEF2BF;
 }
 
-span {
-    font-size: 20px;
-}
 
 .container {
   display: block;
@@ -57,7 +46,8 @@ button {
     border-radius: 50%;
     width: 110px;
     margin: auto;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-style: dotted;
     outline: none;
     font-family: 'Press Start 2P', cursive;
@@ -89,6 +79,26 @@ button {
   background-color: grey;
 }
 
+#best-score, #current-score {
+  font-family: 'Press Start 2P', cursive;
+  /* font-size: 16px'; */
+  /* margin:  2%; */
+  color: #FEF2BF;
+}
+
 .btnHide {
     display: none;
 }
+
+/* footer {
+background-color: #ffffff;
+font-size: 12px;
+padding: 10px;
+left: 0;
+bottom: 0;
+margin-top: 70px;
+} */
+
+/* span {
+font-size: 20px;
+} */
